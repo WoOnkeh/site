@@ -1,0 +1,19 @@
+{
+    "products": [
+      {
+        "id": "7",
+        "name": "Стиральная машина Samsung",
+        "description": "Автоматическая стиральная машина с различными режимами.",
+        "price": 399.99,
+        "image": "images/washing_machine_samsung.jpg"
+      },
+      {
+        "id": "8",
+        "name": "Стиральная машина LG",
+        "description": "Компактная стиральная машина с функцией быстрой стирки.",
+        "price": 289.99,
+        "image": "images/washing_machine_lg.jpg"
+      }
+    ]
+  }
+  

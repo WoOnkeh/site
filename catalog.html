@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог товаров</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Каталог товаров "МикроТех"</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="cart.html">Корзина</a></li>
+                    <li><a href="#">Вход</a></li>
+                    <li><a href="#">Регистрация</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <nav id="catalog">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Поиск по названию товара...">
+        </div>
+        <ul class="top-level">
+            <li><a href="#" data-category="electronics">Электроника</a>
+                <ul class="sub-level">
+                    <li><a href="#" data-subcategory="microcontrollers" data-parent-category="electronics">Микроконтроллеры</a></li>
+                    <li><a href="#" data-subcategory="sensors" data-parent-category="electronics">Сенсоры</a></li>
+                </ul>
+            </li>
+            <li><a href="#" data-category="appliances">Бытовая техника</a>
+                <ul class="sub-level">
+                    <li><a href="#" data-subcategory="kitchen" data-parent-category="appliances">Кухонная техника</a></li>
+                    <li><a href="#" data-subcategory="laundry" data-parent-category="appliances">Стиральные машины</a></li>
+                </ul>
+            </li>
+            <li><a href="#" data-category="tools">Инструменты</a>
+                <ul class="sub-level">
+                    <li><a href="#" data-subcategory="power-tools" data-parent-category="tools">Электростанки</a></li>
+                    <li><a href="#" data-subcategory="drills" data-parent-category="tools">Дрели</a></li>
+                    <li><a href="#" data-subcategory="hand-tools" data-parent-category="tools">Ручные инструменты</a></li>
+                    <!-- Добавьте другие подкатегории инструментов -->
+                </ul>
+            </li>
+            <li><a href="#" data-category="consumables">Расходные материалы</a>
+                <ul class="sub-level">
+                    <li><a href="#" data-subcategory="chemistry" data-parent-category="consumables">Химия</a></li>
+                    <li><a href="#" data-subcategory="soldering" data-parent-category="consumables">Пайка</a></li>
+                    <li><a href="#" data-subcategory="pipes" data-parent-category="consumables">Трубы</a></li>
+                    <li><a href="#" data-subcategory="tape" data-parent-category="consumables">Изолента</a></li>
+                    <!-- Добавьте другие подкатегории расходных материалов -->
+                </ul>
+            </li>
+            <!-- Другие категории -->
+            </ul>
+        </nav>
+    <section class="product">
+        <!-- Здесь будут отображаться товары -->
+    </section>
+    <footer>
+        <div class="container">
+            <p>© 2024 "МикроТех". Все права защищены.</p>
+        </div>
+    </footer>
+    <script src="js/javascript.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>

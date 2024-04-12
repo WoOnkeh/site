@@ -1,0 +1,32 @@
+{
+    "products": [
+        {
+            "id": "11",
+            "name": "Датчик температуры T-100",
+            "description": "Точный датчик для измерения температуры окружающей среды.",
+            "price": 12.49,
+            "image": "temperature_sensor_t100.jpg"
+        },
+        {
+            "id": "12",
+            "name": "Датчик влажности HUM-200",
+            "description": "Идеально подходит для контроля влажности в помещении.",
+            "price": 8.99,
+            "image": "humidity_sensor_hum200.jpg"
+        },
+        {
+            "id": "1",
+            "name": "Микроконтроллер Arduino Uno",
+            "description": "Популярный микроконтроллер для DIY проектов.",
+            "price": 25.99,
+            "image": "images/arduino_uno.jpg"
+          },
+          {
+            "id": "2",
+            "name": "Микроконтроллер Raspberry Pi",
+            "description": "Мини-компьютер для различных электронных задач.",
+            "price": 35.49,
+            "image": "images/raspberry_pi.jpg"
+          }
+    ]
+}

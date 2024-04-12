@@ -1,0 +1,19 @@
+{
+    "products": [
+      {
+        "id": "5",
+        "name": "Мультиварка Redmond",
+        "description": "Мультиварка для приготовления различных блюд.",
+        "price": 45.99,
+        "image": "images/multicooker_redmond.jpg"
+      },
+      {
+        "id": "6",
+        "name": "Соковыжималка Bosch",
+        "description": "Удобная соковыжималка для свежего сока.",
+        "price": 29.99,
+        "image": "images/juicer_bosch.jpg"
+      }
+    ]
+  }
+  

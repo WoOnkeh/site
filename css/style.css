@@ -1,0 +1,145 @@
+/* style.css */
+
+/* Общие стили для всего сайта */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Стили для заголовков */
+h1, h2, h3 {
+    color: #333;
+}
+
+/* Стили для навигации */
+nav {
+    text-align: left;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row; /* Изменено на горизонтальное расположение */
+    flex-wrap: wrap; /* Разрешить перенос элементов на новую строку */
+}
+
+nav li {
+    margin-right: 20px; /* Отступ между категориями */
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000; /* Цвет текста ссылок */
+    padding: 10px 15px; /* Поля вокруг текста ссылок */
+    border-radius: 5px; /* Закругление углов ссылок */
+    background-color: #f0f0f0; /* Цвет фона ссылок */
+    display: block;
+}
+
+nav a:hover {
+    background-color: #ddd; /* Цвет фона ссылок при наведении */
+}
+
+nav .sub-level {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 1;
+}
+
+nav .sub-level a {
+    display: block;
+    padding: 5px 0;
+    white-space: nowrap; /* Запрет переноса подкатегорий на новую строку */
+}
+
+nav .top-level:hover .sub-level {
+    display: block;
+}
+
+/* Стили для товаров */
+.product {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.product p {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Стили для футера */
+footer {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    text-align: center;
+    color: #999;
+}
+
+#catalog ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#catalog .top-level > li {
+    position: relative;
+    display: inline-block;
+}
+
+#catalog .sub-level {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 1;
+    min-width: 200px; /* Ширина подкатегории */
+}
+
+#catalog .top-level > li:hover .sub-level {
+    display: block;
+}
+
+#catalog .sub-level li {
+    margin-bottom: 5px;
+}
+
+#catalog .sub-level a {
+    display: block;
+    padding: 5px;
+    color: #333;
+    text-decoration: none;
+}
+
+#catalog .sub-level a:hover {
+    background-color: #ddd;
+    color: #000; /* Цвет текста при наведении */
+}
